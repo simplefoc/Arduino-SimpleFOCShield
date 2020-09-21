@@ -1,4 +1,4 @@
-# Arduino *SimpleFOCShield*
+# Arduino *Simple**FOC**Shield* *v1.3.1*
 
 <p align="">
 <a href="https://youtu.be/G5pbo0C6ujE">
