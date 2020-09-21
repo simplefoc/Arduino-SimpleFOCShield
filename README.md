@@ -16,5 +16,3 @@
 - **Configurable pinout**: Hardware configuration - soldering connections
 - **Arduino headers**: Arduino UNO, Arduino MEGA, STM32 Nucleo boards...
 - **Open Source**: Fully available fabrication files - [how to make it yourself](https://docs.simplefoc.com/arduino_simplefoc_shield_fabrication)
-
-##### If you are interested in this board, order your version on this link: [Arduino Simple FOC Shield](https://www.simplefoc.com/simplefoc_shield_product)
