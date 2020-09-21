@@ -30,7 +30,7 @@ This is an open-source low-cost Brushless DC (BLDC) motor driver board intended 
 ## Getting started
 
 You already have your own <span class="simple">Simple<span class="foc">FOC</span>Shield</span>? <br>
-[Here is a simple guide how to start preparing your setup](arduino_simplefoc_shield_getting_started)
+[Here is a simple guide how to start preparing your setup](https://docs.simplefoc.com/arduino_simplefoc_shield_getting_started)
 
 
 
