@@ -4,28 +4,32 @@ C:\Users\Gospar\Documents\Altium\ArduinoFOC\Project Outputs for ArduinoFOC\Pick 
 ========================================================================================================================
 File Design Information:
 
-Date:       19/07/20
-Time:       13:01
+Date:       21/09/20
+Time:       20:56
 Revision:   Not in VersionControl
 Variant:    No variations
 Units used: mil
 
 "Designator","Comment","Layer","Footprint","Center-X(mil)","Center-Y(mil)","Rotation","Description"
+"SC6","solder_connection","BottomLayer","solder_connection","748.032","1801.181","180",""
+"SC5","solder_connection","BottomLayer","solder_connection","748.032","1643.701","180",""
+"PULL_SDA","Res3","TopLayer","14-1210","472.441","1515.748","0","Resistor"
+"PULL_SCL","Res3","TopLayer","14-1210","472.441","1742.126","0","Resistor"
 "P2","Header 10","TopLayer","HDR1X10","1160.630","1988.189","0","Header, 10-Pin"
-"SCFA3","solder_connection_four","TopLayer","solder_connection_four","1998.032","698.819","90",""
+"SCFA3","solder_connection_four","BottomLayer","solder_connection_four","1998.032","698.819","270",""
 "CAP1","EEH-ZA1E101XP","TopLayer","EEH-ZA1E101XP","1354.331","620.079","270",""
-"SCTI","sodler connection tripple","TopLayer","solder_connection_tripple","2401.575","944.882","180",""
-"SCFA","solder_connection_four","TopLayer","solder_connection_four","2509.843","541.339","270",""
-"SCTB","sodler connection tripple","TopLayer","solder_connection_tripple","2401.575","1102.362","180",""
-"SCT4","sodler connection tripple","TopLayer","solder_connection_tripple","1771.653","708.661","270",""
-"SCT2","sodler connection tripple","TopLayer","solder_connection_tripple","2224.409","688.976","270",""
-"SCT1","sodler connection tripple","TopLayer","solder_connection_tripple","1574.803","708.661","270",""
-"SC3","sodler connection double","TopLayer","solder_connection","2076.771","1279.527","270",""
+"SCTI","solder_connection_tripple","BottomLayer","solder_connection_tripple","2401.575","944.882","180",""
+"SCFA","solder_connection_four","BottomLayer","solder_connection_four","2509.843","541.339","90",""
+"SCTB","solder_connection_tripple","BottomLayer","solder_connection_tripple","2401.575","1102.362","180",""
+"SCT4","solder_connection_tripple","BottomLayer","solder_connection_tripple","1771.653","708.661","270",""
+"SCT2","solder_connection_tripple","BottomLayer","solder_connection_tripple","2224.409","688.976","270",""
+"SCT1","solder_connection_tripple","BottomLayer","solder_connection_tripple","1574.803","708.661","270",""
+"SC3","solder_connection","BottomLayer","solder_connection","2076.771","1279.527","270",""
 "R1","Res3","TopLayer","14-1210","472.441","393.701","0","Resistor"
 "PULL_I","Res3","TopLayer","14-1210","1820.866","1328.740","0","Resistor"
 "R2","Res3","TopLayer","14-1210","1122.047","1673.228","270","Resistor"
-"SC2","sodler connection tripple","TopLayer","solder_connection","2076.772","1535.433","270",""
-"SC1","sodler connection double","TopLayer","solder_connection","2076.772","1751.968","270",""
+"SC2","solder_connection","BottomLayer","solder_connection","2076.771","1535.433","270",""
+"SC1","solder_connection","BottomLayer","solder_connection","2076.771","1751.968","270",""
 "PULL_A","Res3","TopLayer","14-1210","1821.929","1727.441","0","Resistor"
 "PULL_B","Res3","TopLayer","14-1210","1820.866","1525.591","0","Resistor"
 "D1","LED3","TopLayer","3.5X2.8X1.9","216.535","403.543","180","Typical BLUE SiC LED"

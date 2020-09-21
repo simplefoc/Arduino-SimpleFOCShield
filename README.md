@@ -1,4 +1,4 @@
-# Arduino *Simple**FOC**Shield* *v1.3.1*
+# Arduino *Simple**FOC**Shield* *v1.3.2*
 
 <p align="">
 <a href="https://youtu.be/G5pbo0C6ujE">
@@ -16,3 +16,6 @@
 - **Configurable pinout**: Hardware configuration - soldering connections
 - **Arduino headers**: Arduino UNO, Arduino MEGA, STM32 Nucleo boards...
 - **Open Source**: Fully available fabrication files - [how to make it yourself](https://docs.simplefoc.com/arduino_simplefoc_shield_fabrication)
+
+### New Features 
+- **I2C interface**: Integrated 4.7kΩ pullups (configurable)
