@@ -1,9 +1,9 @@
 # Arduino *Simple**FOC**Shield* *v1.3.2*
 
+This is an open-source low-cost Brushless DC (BLDC) motor driver board intended primarily for low-power FOC applications up to 5Amps. The board is fully compatible with the Arduino UNO and all the boards with the standard Arduino headers. The SimpleFOCShield, in combination with the SimpleFOClibrary provides user-friendly way to control BLDC motors both in hardware and software.
+
 <p align="">
-<a href="https://youtu.be/G5pbo0C6ujE">
-<img src="https://docs.simplefoc.com/extras/Images/foc_shield_video.jpg"  height="320px">
-</a>
+<img src="images/top.png"  height="320px"><img src="images/bottom.png"  height="320px">
 </p>
 
 ### Features
@@ -19,3 +19,21 @@
 
 ### New Features 
 - **I2C interface**: Integrated 4.7kΩ pullups (configurable)
+
+### Short YouTube demonstration video :D
+<p align="">
+<a href="https://youtu.be/G5pbo0C6ujE">
+<img src="https://docs.simplefoc.com/extras/Images/foc_shield_video.jpg"  height="320px">
+</a>
+</p>
+
+## Getting started
+
+You already have your own <span class="simple">Simple<span class="foc">FOC</span>Shield</span>? <br>
+[Here is a simple guide how to start preparing your setup](arduino_simplefoc_shield_getting_started)
+
+
+
+## How to get hold of the <span class="simple">Simple<span class="foc">FOC</span>Shield</span> 
+- **Fabricate the board yourself**:  Please visit the [board fabrication](https://docs.simplefoc.com/arduino_simplefoc_shield_fabrication) to find out how to manufacture the board yourself!<br>
+- **Order the finished and tested board**:  Check out our [shop](https://simplefoc.com/simplefoc_shield_product).
