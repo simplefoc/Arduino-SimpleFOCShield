@@ -1,13 +1,13 @@
 # Arduino *Simple**FOC**Shield* *v1.3.2*
 
-This is an open-source low-cost Brushless DC (BLDC) motor driver board intended primarily for low-power FOC applications up to 5Amps. The board is fully compatible with the Arduino UNO and all the boards with the standard Arduino headers. The SimpleFOCShield, in combination with the SimpleFOClibrary provides user-friendly way to control BLDC motors both in hardware and software.
+This is an open-source low-cost Brushless DC (BLDC) motor driver board intended primarily for low-power FOC applications up to 5Amps. The board is fully compatible with the Arduino UNO and all the boards with the standard Arduino headers. The *Simple**FOC**Shield*, in combination with the *Simple**FOC**library* provides user-friendly way to control BLDC motors both in hardware and software.
 
 <p align="">
 <img src="images/top.png"  height="320px"><img src="images/bottom.png"  height="320px">
 </p>
 
 ### Features
-- **Plug & play**: In combination with Arduino <span class="simple">Simple<span class="foc">FOC</span>library</span> 
+- **Plug & play**: In combination with Arduino *Simple**FOC**library* - [github](https://github.com/simplefoc/Arduino-FOC)
 - **Low-cost**: Price of €15 - [Check the pricing](https://www.simplefoc.com/simplefoc_shield_product) 
 - **Max power 120W** - max current 5A, power-supply 12-24V
    - Designed for Gimbal motors with the internal resistance >10 Ωs. 
@@ -27,8 +27,20 @@ This is an open-source low-cost Brushless DC (BLDC) motor driver board intended 
 </a>
 </p>
 
-## Getting started
 
+## Board versions:
+
+To check the release timeline, click [here](https://github.com/simplefoc/Arduino-SimpleFOCShield/releases) 
+
+Version  |link | Release date | Comment
+----- | ----- | ---- | ----
+*Simple**FOC**Shield* v1.3 |[release v1.3](https://github.com/simplefoc/Arduino-SimpleFOCShield/releases/tag/v1.3) | 04/20 | Inital release
+*Simple**FOC**Shield* v1.3.1 | [release v1.3.1](https://github.com/simplefoc/Arduino-SimpleFOCShield/releases/tag/v1.3.1) | 07/20 | added Nucleo stacking support
+*Simple**FOC**Shield* v1.3.2 |[release v1.3.2](https://github.com/simplefoc/Arduino-SimpleFOCShield/releases/tag/v1.3.2) | 09/20 | added I2C pullups
+
+
+
+## Getting started
 You already have your own <span class="simple">Simple<span class="foc">FOC</span>Shield</span>? <br>
 [Here is a simple guide how to start preparing your setup](https://docs.simplefoc.com/arduino_simplefoc_shield_getting_started)
 
