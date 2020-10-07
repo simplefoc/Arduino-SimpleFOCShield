@@ -12,7 +12,8 @@ This is an open-source low-cost Brushless DC (BLDC) motor driver board intended 
 - **Max power 120W** - max current 5A, power-supply 12-24V
    - Designed for Gimbal motors with the internal resistance >10 Ωs. 
 - **Stackable**: running 2 motors in the same time
-- **Encoder interface**: Integrated 3.3kΩ pullups (configurable)
+- **Encoder?Hall sensors interface**: Integrated 3.3kΩ pullups (configurable)
+- **I2C interface**: Integrated 4.7kΩ pullups (configurable)
 - **Configurable pinout**: Hardware configuration - soldering connections
 - **Arduino headers**: Arduino UNO, Arduino MEGA, STM32 Nucleo boards...
 - **Open Source**: Fully available fabrication files - [how to make it yourself](https://docs.simplefoc.com/arduino_simplefoc_shield_fabrication)
