@@ -30,7 +30,7 @@ This is an open-source low-cost Brushless DC (BLDC) motor driver board intended 
 
 ## Board versions:
 
-To heck the release timeline, click [here](https://github.com/simplefoc/Arduino-SimpleFOCShield/releases) 
+To check the release timeline, click [here](https://github.com/simplefoc/Arduino-SimpleFOCShield/releases) 
 
 Version  |link | Release date | Comment
 ----- | ----- | ---- | ----
