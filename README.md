@@ -1,4 +1,4 @@
-# Arduino *Simple**FOC**Shield* *v1.3.2*
+# Arduino *Simple**FOC**Shield* *v1.3.3*
 
 This is an open-source low-cost Brushless DC (BLDC) motor driver board intended primarily for low-power FOC applications up to 5Amps. The board is fully compatible with the Arduino UNO and all the boards with the standard Arduino headers. The *Simple**FOC**Shield*, in combination with the *Simple**FOC**library* provides user-friendly way to control BLDC motors both in hardware and software.
 
@@ -19,7 +19,9 @@ This is an open-source low-cost Brushless DC (BLDC) motor driver board intended 
 - **Open Source**: Fully available fabrication files - [how to make it yourself](https://docs.simplefoc.com/arduino_simplefoc_shield_fabrication)
 
 ### New Features 
-- **I2C interface**: Integrated 4.7kΩ pullups (configurable)
+- **Full standard arduino headers**: 6pin + 2x8pin + 10 pin
+- **L6234 circuit change**: by <i>@MrAndersen</i> [community link](https://community.simplefoc.com/t/simplefocshield-schematic-c4-capacitor/193)
+- **SMT Assembly**: Board fully compatible with JLCPCB smt assembly. You can order it fully assembled from their website - everything except the headers and terminals.
 
 ### Short YouTube demonstration video :D
 <p align="">
@@ -38,6 +40,7 @@ Version  |link | Release date | Comment
 *Simple**FOC**Shield* v1.3 |[release v1.3](https://github.com/simplefoc/Arduino-SimpleFOCShield/releases/tag/v1.3) | 04/20 | Inital release
 *Simple**FOC**Shield* v1.3.1 | [release v1.3.1](https://github.com/simplefoc/Arduino-SimpleFOCShield/releases/tag/v1.3.1) | 07/20 | added Nucleo stacking support
 *Simple**FOC**Shield* v1.3.2 |[release v1.3.2](https://github.com/simplefoc/Arduino-SimpleFOCShield/releases/tag/v1.3.2) | 09/20 | added I2C pullups
+*Simple**FOC**Shield* v1.3.3 |[release v1.3.3](https://github.com/simplefoc/Arduino-SimpleFOCShield/releases/tag/v1.3.3) | 11/20 | addapted L6234 circuit + full Arduino header
 
 
 
