@@ -17,7 +17,7 @@ Units used: mil
 "PULL_SCL","Res3","TopLayer","14-1210","472.441","1742.126","0","Resistor"
 "P2","Header 10","TopLayer","HDR1X10","1160.630","1988.189","0","Header, 10-Pin"
 "SCFA3","solder_connection_four","BottomLayer","solder_connection_four","1998.032","698.819","270",""
-"CAP1","EEH-ZA1E101XP","TopLayer","EEH-ZA1E101XP","1354.331","620.079","270",""
+"CAP1","EEH-ZA1E101XP","TopLayer","EEH-ZA1E101XP","1354.331","620.079","180",""
 "SCTI","solder_connection_tripple","BottomLayer","solder_connection_tripple","2401.575","944.882","180",""
 "SCFA","solder_connection_four","BottomLayer","solder_connection_four","2509.843","541.339","90",""
 "SCTB","solder_connection_tripple","BottomLayer","solder_connection_tripple","2401.575","1102.362","180",""
