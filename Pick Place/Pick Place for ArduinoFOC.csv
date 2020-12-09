@@ -1,47 +1,47 @@
-Altium Designer Pick and Place Locations,,,,,,,
-C:\Users\Gospar\Documents\Altium\ArduinoFOC\Project Outputs for ArduinoFOC\Pick Place for ArduinoFOC.csv,,,,,,,
-,,,,,,,
-========================================================================================================================,,,,,,,
-File Design Information:,,,,,,,
-,,,,,,,
-Date:       07/11/20,,,,,,,
-Time:       15:14,,,,,,,
-Revision:   Not in VersionControl,,,,,,,
-Variant:    No variations,,,,,,,
-Units used: mil,,,,,,,
-,,,,,,,
-Designator,Comment,Layer,Footprint,Center-X(mil),Center-Y(mil),Rotation,Description
-SC6,solder_connection,BottomLayer,solder_connection,748.032,1801.181,180,
-SC5,solder_connection,BottomLayer,solder_connection,748.032,1643.701,180,
-PULL_SDA,Res3,TopLayer,14-1210,472.441,1515.748,0,Resistor
-PULL_SCL,Res3,TopLayer,14-1210,472.441,1742.126,0,Resistor
-P2,Header 10,TopLayer,HDR1X10,1160.63,1988.189,0,"Header, 10-Pin"
-SCFA3,solder_connection_four,BottomLayer,solder_connection_four,1998.032,698.819,270,
-CAP1,EEH-ZA1E101XP,TopLayer,EEH-ZA1E101XP,1354.331,620.079,180,
-SCTI,solder_connection_tripple,BottomLayer,solder_connection_tripple,2401.575,944.882,180,
-SCFA,solder_connection_four,BottomLayer,solder_connection_four,2509.843,541.339,90,
-SCTB,solder_connection_tripple,BottomLayer,solder_connection_tripple,2401.575,1102.362,180,
-SCT4,solder_connection_tripple,BottomLayer,solder_connection_tripple,1771.653,708.661,270,
-SCT2,solder_connection_tripple,BottomLayer,solder_connection_tripple,2224.409,688.976,270,
-SCT1,solder_connection_tripple,BottomLayer,solder_connection_tripple,1574.803,708.661,270,
-SC3,solder_connection,BottomLayer,solder_connection,2076.771,1279.527,270,
-R1,Res3,TopLayer,14-1210,472.441,393.701,0,Resistor
-PULL_I,Res3,TopLayer,14-1210,1820.866,1328.74,0,Resistor
-R2,Res3,TopLayer,14-1210,1043.307,1692.914,0,Resistor
-SC2,solder_connection,BottomLayer,solder_connection,2076.771,1535.433,270,
-SC1,solder_connection,BottomLayer,solder_connection,2076.771,1751.968,270,
-PULL_A,Res3,TopLayer,14-1210,1821.929,1727.441,0,Resistor
-PULL_B,Res3,TopLayer,14-1210,1820.866,1525.591,0,Resistor
-D1,LED3,TopLayer,3.5X2.8X1.9,216.535,403.543,0,Typical BLUE SiC LED
-L6234,L6234PD013TR,TopLayer,SOIC127P1420X360-21N,877.363,1117.716,0,Motor Driver BiCDMOS Parallel PowerSO-20
-BAT1,BAT54S,TopLayer,BAT54s,1377.953,1053.15,270,
-P_ENC,Header 5,TopLayer,HDR1X5,2381.89,1474.803,270,"Header, 5-Pin"
-TB_PWR,TB002-500-02BE,TopLayer,TB002-500-02BE,708.661,157.48,180,
-TB_M1,TB002-500-03BE,TopLayer,TB002-500-03BE,177.165,905.512,90,
-C4,Cap Semi,TopLayer,C1206,1417.323,1604.331,90,Capacitor (Semiconductor SIM Model)
-C3,Cap Semi,TopLayer,C1206,807.087,1673.228,90,Capacitor (Semiconductor SIM Model)
-C2,Cap Semi,TopLayer,C1206,1377.953,1269.685,90,Capacitor (Semiconductor SIM Model)
-C1,Cap Semi,TopLayer,C1206,1279.528,1604.331,90,Capacitor (Semiconductor SIM Model)
-P4,Header 8,TopLayer,HDR1X8,1409.842,100,0,"Header, 8-Pin"
-P3,Header 6,TopLayer,HDR1X6,2210.63,100,0,"Header, 6-Pin"
-P1,Header 8,TopLayer,HDR1X8,2110.63,1988.189,0,"Header, 8-Pin"
+Altium Designer Pick and Place Locations
+C:\Users\Gospar\Documents\Altium\ArduinoFOC\project_versions\SimpleFOCShield_v1.3.3\Project Outputs for ArduinoFOC\Pick Place for ArduinoFOC.csv
+
+========================================================================================================================
+File Design Information:
+
+Date:       09/12/20
+Time:       16:38
+Revision:   Not in VersionControl
+Variant:    No variations
+Units used: mil
+
+"Designator","Comment","Layer","Footprint","Center-X(mil)","Center-Y(mil)","Rotation","Description"
+"SC6","solder_connection","BottomLayer","solder_connection","748.032","1801.181","180",""
+"SC5","solder_connection","BottomLayer","solder_connection","748.032","1643.701","180",""
+"PULL_SDA","Res3","TopLayer","14-1210","472.441","1515.748","0","Resistor"
+"PULL_SCL","Res3","TopLayer","14-1210","472.441","1742.126","0","Resistor"
+"P2","Header 10","TopLayer","HDR1X10","1160.630","1988.189","0","Header, 10-Pin"
+"SCFA3","solder_connection_four","BottomLayer","solder_connection_four","1998.032","698.819","270",""
+"CAP1","EEH-ZA1E101XP","TopLayer","EEH-ZA1E101XP","1354.331","620.079","270",""
+"SCTI","solder_connection_tripple","BottomLayer","solder_connection_tripple","2401.575","944.882","180",""
+"SCFA","solder_connection_four","BottomLayer","solder_connection_four","2509.843","541.339","90",""
+"SCTB","solder_connection_tripple","BottomLayer","solder_connection_tripple","2401.575","1102.362","180",""
+"SCT4","solder_connection_tripple","BottomLayer","solder_connection_tripple","1771.653","708.661","270",""
+"SCT2","solder_connection_tripple","BottomLayer","solder_connection_tripple","2224.409","688.976","270",""
+"SCT1","solder_connection_tripple","BottomLayer","solder_connection_tripple","1574.803","708.661","270",""
+"SC3","solder_connection","BottomLayer","solder_connection","2076.771","1279.527","270",""
+"R1","Res3","TopLayer","14-1210","472.441","403.543","0","Resistor"
+"PULL_I","Res3","TopLayer","14-1210","1820.866","1328.740","0","Resistor"
+"R2","Res3","TopLayer","14-1210","1122.047","1673.228","270","Resistor"
+"SC2","solder_connection","BottomLayer","solder_connection","2076.771","1535.433","270",""
+"SC1","solder_connection","BottomLayer","solder_connection","2076.771","1751.968","270",""
+"PULL_A","Res3","TopLayer","14-1210","1821.929","1727.441","0","Resistor"
+"PULL_B","Res3","TopLayer","14-1210","1820.866","1525.591","0","Resistor"
+"D1","LED3","TopLayer","3.5X2.8X1.9","216.535","403.543","0","Typical BLUE SiC LED"
+"L6234","L6234PD013TR","TopLayer","SOIC127P1420X360-21N","877.363","1117.716","0","Motor Driver BiCDMOS Parallel PowerSO-20"
+"BAT1","BAT54S","TopLayer","BAT54s","1377.953","1053.150","180",""
+"P_ENC","Header 5","TopLayer","HDR1X5","2381.890","1474.803","270","Header, 5-Pin"
+"TB_PWR","TB002-500-02BE","TopLayer","TB002-500-02BE","688.976","167.323","180",""
+"TB_M1","TB002-500-03BE","TopLayer","TB002-500-03BE","177.165","905.512","90",""
+"C4","Cap Semi","TopLayer","C1206","1417.323","1604.331","90","Capacitor (Semiconductor SIM Model)"
+"C3","Cap Semi","TopLayer","C1206","807.087","1673.228","90","Capacitor (Semiconductor SIM Model)"
+"C2","Cap Semi","TopLayer","C1206","1377.953","1269.685","90","Capacitor (Semiconductor SIM Model)"
+"C1","Cap Semi","TopLayer","C1206","1279.528","1604.331","90","Capacitor (Semiconductor SIM Model)"
+"P4","Header 8","TopLayer","HDR1X8","1411.417","100.000","0","Header, 8-Pin"
+"P3","Header 6","TopLayer","HDR1X6","2210.630","100.000","0","Header, 6-Pin"
+"P1","Header 8","TopLayer","HDR1X8","2110.630","1988.189","0","Header, 8-Pin"

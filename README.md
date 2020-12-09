@@ -22,6 +22,7 @@ This is an open-source low-cost Brushless DC (BLDC) motor driver board intended 
 - **Full standard arduino headers**: 6pin + 2x8pin + 10 pin
 - **L6234 circuit change**: by <i>@MrAndersen</i> [community link](https://community.simplefoc.com/t/simplefocshield-schematic-c4-capacitor/193)
 - **SMT Assembly**: Board fully compatible with JLCPCB smt assembly. You can order it fully assembled from their website - everything except the headers and terminals.
+- **Bugfix**: [Ground plane not connected](https://community.simplefoc.com/t/motor-makes-loud-noise/316/11) on version v1.3.3 - corrected in 12/2020
 
 ### Short YouTube demonstration video :D
 <p align="">
