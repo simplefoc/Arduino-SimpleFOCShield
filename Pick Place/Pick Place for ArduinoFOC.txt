@@ -1,16 +1,17 @@
 Altium Designer Pick and Place Locations
-C:\Users\Gospar\Documents\Altium\ArduinoFOC\project_versions\SimpleFOCShield_v1.3.3\Project Outputs for ArduinoFOC\Pick Place for ArduinoFOC.txt
+C:\Users\Gospar\Documents\Altium\ArduinoFOC\project_versions\SimpleFOCShield_v1.3.3\SimpleFOCShield_v1.3.3\Project Outputs for ArduinoFOC\Pick Place for ArduinoFOC.txt
 
 ========================================================================================================================
 File Design Information:
 
-Date:       09/12/20
-Time:       16:38
+Date:       11/12/20
+Time:       08:43
 Revision:   Not in VersionControl
 Variant:    No variations
 Units used: mil
 
 Designator Comment                   Layer       Footprint                 Center-X(mil) Center-Y(mil) Rotation Description                                
+C4         "Cap Semi"                TopLayer    C1206                     1417.323      1594.488      90       "Capacitor (Semiconductor SIM Model)"      
 SC6        solder_connection         BottomLayer solder_connection         748.032       1801.181      180      ""                                         
 SC5        solder_connection         BottomLayer solder_connection         748.032       1643.701      180      ""                                         
 PULL_SDA   Res3                      TopLayer    14-1210                   472.441       1515.748      0        Resistor                                   
@@ -32,13 +33,12 @@ SC2        solder_connection         BottomLayer solder_connection         2076.
 SC1        solder_connection         BottomLayer solder_connection         2076.771      1751.968      270      ""                                         
 PULL_A     Res3                      TopLayer    14-1210                   1821.929      1727.441      0        Resistor                                   
 PULL_B     Res3                      TopLayer    14-1210                   1820.866      1525.591      0        Resistor                                   
-D1         LED3                      TopLayer    3.5X2.8X1.9               216.535       403.543       0      "Typical BLUE SiC LED"                     
-L6234      L6234PD013TR              TopLayer    SOIC127P1420X360-21N      877.363       1117.716      0       "Motor Driver BiCDMOS Parallel PowerSO-20" 
+D1         LED3                      TopLayer    3.5X2.8X1.9               216.535       403.543       180      "Typical BLUE SiC LED"                     
+L6234      L6234PD013TR              TopLayer    SOIC127P1420X360-21N      877.363       1117.716      90       "Motor Driver BiCDMOS Parallel PowerSO-20" 
 BAT1       BAT54S                    TopLayer    BAT54s                    1377.953      1053.150      180      ""                                         
 P_ENC      "Header 5"                TopLayer    HDR1X5                    2381.890      1474.803      270      "Header, 5-Pin"                            
 TB_PWR     TB002-500-02BE            TopLayer    TB002-500-02BE            688.976       167.323       180      ""                                         
 TB_M1      TB002-500-03BE            TopLayer    TB002-500-03BE            177.165       905.512       90       ""                                         
-C4         "Cap Semi"                TopLayer    C1206                     1417.323      1604.331      90       "Capacitor (Semiconductor SIM Model)"      
 C3         "Cap Semi"                TopLayer    C1206                     807.087       1673.228      90       "Capacitor (Semiconductor SIM Model)"      
 C2         "Cap Semi"                TopLayer    C1206                     1377.953      1269.685      90       "Capacitor (Semiconductor SIM Model)"      
 C1         "Cap Semi"                TopLayer    C1206                     1279.528      1604.331      90       "Capacitor (Semiconductor SIM Model)"      
