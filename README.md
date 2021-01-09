@@ -1,6 +1,6 @@
-# Arduino *Simple**FOC**Shield* *v1.3.3*
+# Arduino *Simple**FOC**Shield* *v2.0*
 
-This is an open-source low-cost Brushless DC (BLDC) motor driver board intended primarily for low-power FOC applications up to 5Amps. The board is fully compatible with the Arduino UNO and all the boards with the standard Arduino headers. The *Simple**FOC**Shield*, in combination with the *Simple**FOC**library* provides user-friendly way to control BLDC motors both in hardware and software.
+This is an open-source low-cost Brushless DC (BLDC) motor driver board intended primarily for low-power FOC applications up to 3Amps. The board is fully compatible with the Arduino UNO and all the boards with the standard Arduino headers. The *Simple**FOC**Shield*, in combination with the *Simple**FOC**library* provides user-friendly way to control BLDC motors both in hardware and software. 
 
 <p align="">
 <img src="images/top.png"  height="320px"><img src="images/bottom.png"  height="320px">
@@ -9,20 +9,27 @@ This is an open-source low-cost Brushless DC (BLDC) motor driver board intended 
 ### Features
 - **Plug & play**: In combination with Arduino *Simple**FOC**library* - [github](https://github.com/simplefoc/Arduino-FOC)
 - **Low-cost**: Price of €15 - [Check the pricing](https://www.simplefoc.com/simplefoc_shield_product) 
+- **In-line current sensing**: Up to 3Amps bidirectional
+- **Integrated 5V regulator**: Enable/disable by soldering pads
 - **Max power 120W** - max current 5A, power-supply 12-24V
    - Designed for Gimbal motors with the internal resistance >10 Ωs. 
 - **Stackable**: running 2 motors in the same time
-- **Encoder?Hall sensors interface**: Integrated 3.3kΩ pullups (configurable)
+- **Encoder/Hall sensors interface**: Integrated 3.3kΩ pullups (configurable)
 - **I2C interface**: Integrated 4.7kΩ pullups (configurable)
 - **Configurable pinout**: Hardware configuration - soldering connections
 - **Arduino headers**: Arduino UNO, Arduino MEGA, STM32 Nucleo boards...
 - **Open Source**: Fully available fabrication files - [how to make it yourself](https://docs.simplefoc.com/arduino_simplefoc_shield_fabrication)
 
 ### New Features 
-- **Full standard arduino headers**: 6pin + 2x8pin + 10 pin
-- **L6234 circuit change**: by <i>@MrAndersen</i> [community link](https://community.simplefoc.com/t/simplefocshield-schematic-c4-capacitor/193)
-- **SMT Assembly**: Board fully compatible with JLCPCB smt assembly. You can order it fully assembled from their website - everything except the headers and terminals.
-- **Bugfix**: [Ground plane not connected](https://community.simplefoc.com/t/motor-makes-loud-noise/316/11) on version v1.3.3 - corrected in 12/2020
+- **In-line Current sensing** 
+   - Up to 3Amps bi-directional
+   - Real FOC torque control
+- 5V voltage regulator
+   - configurable - enable/disable
+- New pinout for hardware config
+- Better ground evacuation of current from l6234 to terminal
+- Still optimised for ordering from JLCPCB
+
 
 ### Short YouTube demonstration video :D
 <p align="">
@@ -41,7 +48,8 @@ Version  |link | Release date | Comment
 *Simple**FOC**Shield* v1.3 |[release v1.3](https://github.com/simplefoc/Arduino-SimpleFOCShield/releases/tag/v1.3) | 04/20 | Inital release
 *Simple**FOC**Shield* v1.3.1 | [release v1.3.1](https://github.com/simplefoc/Arduino-SimpleFOCShield/releases/tag/v1.3.1) | 07/20 | added Nucleo stacking support
 *Simple**FOC**Shield* v1.3.2 |[release v1.3.2](https://github.com/simplefoc/Arduino-SimpleFOCShield/releases/tag/v1.3.2) | 09/20 | added I2C pullups
-*Simple**FOC**Shield* v1.3.3 |[release v1.3.3](https://github.com/simplefoc/Arduino-SimpleFOCShield/releases/tag/v1.3.3) | 11/20 | addapted L6234 circuit + full Arduino header
+*Simple**FOC**Shield* v1.3.3 |[release v1.3.3](https://github.com/simplefoc/Arduino-SimpleFOCShield/releases/tag/v1.3.3) | 12/20 | adapted L6234 circuit + full Arduino header
+*Simple**FOC**Shield* v2.0 |[release v2.0](https://github.com/simplefoc/Arduino-SimpleFOCShield/releases/tag/v2.0) | 01/21 | - 3A in-line current sensing <br>- 5V regulator <br>- new pinout for hardware config 
 
 
 
