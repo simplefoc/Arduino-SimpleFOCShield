@@ -1,4 +1,4 @@
-# Arduino *Simple**FOC**Shield* *v2.0.1*
+# Arduino *Simple**FOC**Shield* *v2.0.2*
 
 This is an open-source low-cost Brushless DC (BLDC) motor driver board intended primarily for low-power FOC applications up to 5Amps. The board is fully compatible with the Arduino UNO and all the boards with the standard Arduino headers. The *Simple**FOC**Shield*, in combination with the *Simple**FOC**library* provides user-friendly way to control BLDC motors both in hardware and software. 
 
@@ -11,7 +11,8 @@ This is an open-source low-cost Brushless DC (BLDC) motor driver board intended 
 - **Low-cost**: Price of €15 - [Check the pricing](https://www.simplefoc.com/simplefoc_shield_product) 
 - **In-line current sensing**: Up to 3Amps/5Amps bidirectional
    - configurable: 3.3Amps - 3.3V adc, 5Amps - 5V adc
-- **Integrated 5V regulator**: Enable/disable by soldering pads
+- **Integrated 8V regulator**: 
+   - Enable/disable by soldering pads
 - **Max power 120W** - max current 5A, power-supply 12-24V
    - Designed for Gimbal motors with the internal resistance >10 Ωs. 
 - **Stackable**: running 2 motors in the same time
@@ -28,7 +29,7 @@ This is an open-source low-cost Brushless DC (BLDC) motor driver board intended 
       - 3.3V adc: 3.3Amps, 
       - 5v adc: 5Amps
    - Real FOC torque control
-- 5V voltage regulator
+- 8V voltage regulator
    - configurable - enable/disable
 - New pinout for hardware config
 - Better ground evacuation of current from l6234 to terminal
@@ -56,6 +57,8 @@ Version  |link | Release date | Comment
 *Simple**FOC**Shield* v1.3.3 |[release v1.3.3](https://github.com/simplefoc/Arduino-SimpleFOCShield/releases/tag/v1.3.3) | 12/20 | adapted L6234 circuit + full Arduino header
 *Simple**FOC**Shield* v2.0 |[release v2.0](https://github.com/simplefoc/Arduino-SimpleFOCShield/releases/tag/v2.0) | 01/21 | - 3A in-line current sensing <br>- 5V regulator <br>- new pinout for hardware config 
 *Simple**FOC**Shield* v2.0.1 |[release v2.0.1](https://github.com/simplefoc/Arduino-SimpleFOCShield/releases/tag/v2.0.1) | 01/21 | - reduced via size <br> - configurable range
+*Simple**FOC**Shield* v2.0.2 |[release v2.0.2](https://github.com/simplefoc/Arduino-SimpleFOCShield/releases) | 01/21 | replaced 7805(connected to 5V) with 7808 (connected to VIN) to be compatible with stm32 Nucleo-64
+
 
 
 
