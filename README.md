@@ -22,6 +22,10 @@ This is an open-source low-cost Brushless DC (BLDC) motor driver board intended 
 - **Arduino headers**: Arduino UNO, Arduino MEGA, STM32 Nucleo boards...
 - **Open Source**: Fully available fabrication files - [how to make it yourself](https://docs.simplefoc.com/arduino_simplefoc_shield_fabrication)
 
+### New Features
+ - Max input voltage 35V
+ - Simplified pull-up config
+ - **Official [Easy EDA project](https://oshwlab.com/the.skuric/simplefocshield)**
 
 ### Short YouTube demonstration video :D
 <p align="">
@@ -54,7 +58,7 @@ Version  |link | Release date | Comment
 *Simple**FOC**Shield* v2.0.1 |[release v2.0.1](https://github.com/simplefoc/Arduino-SimpleFOCShield/releases/tag/v2.0.1) | 01/21 | - reduced via size <br> - configurable range
 *Simple**FOC**Shield* v2.0.2 |[release v2.0.2](https://github.com/simplefoc/Arduino-SimpleFOCShield/releases/tag/v2.0.2) | 02/21 | replaced 7805(connected to 5V) with 78M08 (connected to VIN) to be compatible with stm32 Nucleo-64
 *Simple**FOC**Shield* v2.0.3 |[release v2.0.3](https://github.com/simplefoc/Arduino-SimpleFOCShield/releases/tag/v2.0.3) | 03/21 | - Shortened the lines from ADC to current sense <br> - Typo fix : underside label switched phase A and phase B
-*Simple**FOC**Shield* v2.0.4 |[release v2.0.4](https://github.com/simplefoc/Arduino-SimpleFOCShield/releases/tag/v2.0.4) | 07/21 | - Pullup config simplified <br> - Max input voltage 35V <br> - removed CAP2 for a CL1
+*Simple**FOC**Shield* v2.0.4 |[release v2.0.4](https://github.com/simplefoc/Arduino-SimpleFOCShield/releases/tag/v2.0.4) | 09/21 | - Pullup config simplified <br> - Max input voltage 35V <br> - removed CAP2 for a CL1 <br> - Easy EDA version of the project
 
 ## Getting started
 You already have your own <span class="simple">Simple<span class="foc">FOC</span>Shield</span>? <br>
