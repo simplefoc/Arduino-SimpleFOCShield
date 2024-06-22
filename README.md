@@ -62,7 +62,7 @@ Version  |link | Release date | Comment
 
 ## Getting started
 You already have your own <span class="simple">Simple<span class="foc">FOC</span>Shield</span>? <br>
-[Here is a simple guide how to start preparing your setup](https://docs.simplefoc.com/arduino_simplefoc_shield_getting_started)
+[Here is a simple guide how to start preparing your setup](https://docs.simplefoc.com/arduino_simplefoc_shield_installation)
 
 
 ## How to get hold of the *<span class="simple">Simple<span class="foc">FOC</span>Shield</span>*
