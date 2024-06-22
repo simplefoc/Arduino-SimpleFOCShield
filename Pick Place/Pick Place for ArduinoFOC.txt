@@ -4,8 +4,8 @@ C:\Users\Gospar\Documents\Altium\ArduinoFOC\Project Outputs for ArduinoFOC\Pick 
 ========================================================================================================================
 File Design Information:
 
-Date:       18/07/21
-Time:       10:06
+Date:       22/06/24
+Time:       11:02
 Revision:   Not in VersionControl
 Variant:    No variations
 Units used: mil
@@ -16,7 +16,7 @@ SC10       solder_connection         BottomLayer solder_connection         1161.
 SCTI       "3.3 or 5 v"              BottomLayer solder_connection_tripple 1654.035      393.701       90       ""                                         
 INA2       INA240                    TopLayer    INA240                    543.307       1124.016      270      ""                                         
 CAP1       EEH-ZA1E101XP             TopLayer    EEH-ZA1E101XP             1804.488      720.000       180      ""                                         
-L1         l78M08                    TopLayer    L7805                     1770.945      396.221       0        ""                                         
+L1         l78M08                    TopLayer    L7805                     1690.945      396.221       0        ""                                         
 TB_M1      TB002-500-03BE            TopLayer    TB002-500-03BE            177.165       915.354       90       ""                                         
 SCFI       solder_connection_four    BottomLayer solder_connection_four    2362.204      1013.780      180      ""                                         
 CBY1       "Cap Semi"                TopLayer    C1206                     561.024       944.882       0        "Capacitor (Semiconductor SIM Model)"      
@@ -41,7 +41,7 @@ SC2        solder_connection         BottomLayer solder_connection         1948.
 SC1        solder_connection         BottomLayer solder_connection         2114.173      1338.583      90       ""                                         
 PULL_A     Res3                      TopLayer    14-1210                   1998.032      1712.599      0        Resistor                                   
 PULL_B     Res3                      TopLayer    14-1210                   1998.032      1515.748      0        Resistor                                   
-D1         LED3                      TopLayer    3.5X2.8X1.9               196.850       413.385       0	"Typical BLUE SiC LED"                     
+D1         LED3                      TopLayer    3.5X2.8X1.9               196.850       413.385       180      "Typical BLUE SiC LED"                     
 L6234      L6234PD013TR              TopLayer    SOIC127P1420X360-21N      1147.834      1058.661      0        "Motor Driver BiCDMOS Parallel PowerSO-20" 
 BAT1       BAT54S                    TopLayer    BAT54s                    1644.328      1043.939      270      ""                                         
 P_ENC      "Header 5"                TopLayer    HDR1X5                    2352.362      1474.803      270      "Header, 5-Pin"                            
