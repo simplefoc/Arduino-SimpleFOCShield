@@ -1,31 +1,38 @@
-# Arduino *Simple**FOC**Shield* *v2.0.4*
+# Arduino *Simple**FOC**Shield* *v3.2*
 
 This is an open-source low-cost Brushless DC (BLDC) motor driver board intended primarily for low-power FOC applications up to 5Amps. The board is fully compatible with the Arduino UNO and all the boards with the standard Arduino headers. The *Simple**FOC**Shield*, in combination with the *Simple**FOC**library* provides user-friendly way to control BLDC motors both in hardware and software. 
 
 <p align="">
 <img src="images/top.png"  height="320px"><img src="images/bottom.png"  height="320px">
+<img src="images/top_botv3.jpg" >
 </p>
 
 ### Features
 - **Plug & play**: In combination with Arduino *Simple**FOC**library* - [github](https://github.com/simplefoc/Arduino-FOC)
-- **Low-cost**: Price of 15-20€ - [Check the pricing](https://www.simplefoc.com/simplefoc_shield_product) 
-- **In-line current sensing**: Up to 3Amps/5Amps bidirectional
-   - configurable: 3.3Amps - 3.3V adc, 5Amps - 5V adc
+- **Low-cost**: Price of 15-30€ - [Check the pricing](https://www.simplefoc.com/shop) 
+- **In-line current sensing**: Up to 5Amps bidirectional
+   - ACS712 hall current sensor
 - **Integrated 8V regulator**: 
    - Enable/disable by soldering pads
-- **Max power 120W** - max current 5A, power-supply 12-24V **(35V max)**
-   - Designed for Gimbal motors with the internal resistance >10 Ωs. 
+- **Absolute max ratings** - Designed for Gimbal motors with the internal resistance >10 Ωs. 
+   - Max current: 3A, 
+   - Max input voltage: 35V
 - **Stackable**: running 2 motors in the same time
 - **Encoder/Hall sensors interface**: Integrated 3.3kΩ pullups (configurable)
 - **I2C interface**: Integrated 4.7kΩ pullups (configurable)
 - **Configurable pinout**: Hardware configuration - soldering connections
 - **Arduino headers**: Arduino UNO, Arduino MEGA, STM32 Nucleo boards...
-- **Open Source**: Fully available fabrication files - [how to make it yourself](https://docs.simplefoc.com/arduino_simplefoc_shield_fabrication)
+- **Open Source**: 
+   - Fully designed in **EasyEDA**: [EasyEDA project](https://oshwlab.com/the.skuric/simplefocshield_copy_copy) 🎉
+   - Fully available fabrication files - [how to make it yourself](https://docs.simplefoc.com/arduino_simplefoc_shield_fabrication)
 
-### New Features
- - Max input voltage 35V
- - Simplified pull-up config
- - **Official [Easy EDA project](https://oshwlab.com/the.skuric/simplefocshield)**
+### New Features v3.x
+ - Transition away from stm's L6234 chip to [DRV8313](https://www.ti.com/lit/ds/symlink/drv8313.pdf?ts=1719079575798), which is much more available
+ - Transition form TI's INA240 current amps to Allegro's [ACS712](https://www.sparkfun.com/datasheets/BreakoutBoards/0712.pdf) hall sensors
+ - Smaller footprint: 56mm x 53mm
+ - Fault and reset pins exposed (optional)
+ - Fault led indication
+ - Designed completely in EasyEDA, which is a free online PCB design tool - **[Official Easy EDA project](https://oshwlab.com/the.skuric/simplefocshield_copy_copy)**
 
 ### Short YouTube demonstration video :D
 <p align="">
@@ -33,6 +40,7 @@ This is an open-source low-cost Brushless DC (BLDC) motor driver board intended 
 <img src="https://docs.simplefoc.com/extras/Images/foc_shield_video.jpg"  height="320px">
 </a>
 </p>
+
 
 ### Short video guide to fabricating your own *Simple**FOC**Shield* 
 <p align="">
@@ -59,6 +67,8 @@ Version  |link | Release date | Comment
 *Simple**FOC**Shield* v2.0.2 |[release v2.0.2](https://github.com/simplefoc/Arduino-SimpleFOCShield/releases/tag/v2.0.2) | 02/21 | replaced 7805(connected to 5V) with 78M08 (connected to VIN) to be compatible with stm32 Nucleo-64
 *Simple**FOC**Shield* v2.0.3 |[release v2.0.3](https://github.com/simplefoc/Arduino-SimpleFOCShield/releases/tag/v2.0.3) | 03/21 | - Shortened the lines from ADC to current sense <br> - Typo fix : underside label switched phase A and phase B
 *Simple**FOC**Shield* v2.0.4 |[release v2.0.4](https://github.com/simplefoc/Arduino-SimpleFOCShield/releases/tag/v2.0.4) | 09/21 | - Pullup config simplified <br> - Max input voltage 35V <br> - removed CAP2 for a CL1 <br> - Easy EDA version of the project
+*Simple**FOC**Shield* v3.1 |release v3.1 | 10/22 | - Complete redesign <br> - Transition to DRV8313 <br> - Transition to ACS712 <br> - Smaller footprint: 56mm x 53mm<br> - Fault and reset pins exposed (optional) <br> - Fault led indication <br>- Fully developed using EasyEDA
+*Simple**FOC**Shield* v3.2 |[release v3.2](https://github.com/simplefoc/Arduino-SimpleFOCShield/releases/tag/v2.0.4) | 04/24 | - Resolved the bug [#9](https://github.com/simplefoc/Arduino-SimpleFOCShield/issues/9)
 
 ## Getting started
 You already have your own <span class="simple">Simple<span class="foc">FOC</span>Shield</span>? <br>
