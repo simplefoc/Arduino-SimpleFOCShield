@@ -1,8 +1,5 @@
 # Arduino *Simple**FOC**Shield* *v3.2*
 
-
-<img src="images/top_botv3.jpg" >
-
 This is an open-source low-cost Brushless DC (BLDC) motor driver board intended primarily for low-power FOC applications up to 5Amps. The board is fully compatible with the Arduino UNO and all the boards with the standard Arduino headers. The *Simple**FOC**Shield*, in combination with the *Simple**FOC**library* provides user-friendly way to control BLDC motors both in hardware and software. 
 
 <img src="images/top.png"  height="320px"><img src="images/bottom.png"  height="320px">
@@ -33,6 +30,9 @@ This is an open-source low-cost Brushless DC (BLDC) motor driver board intended 
  - Fault and reset pins exposed (optional)
  - Fault led indication
  - Designed completely in EasyEDA, which is a free online PCB design tool - **[Official Easy EDA project](https://oshwlab.com/the.skuric/simplefocshield_copy_copy)**
+
+
+<img src="images/top_botv3.jpg" >
 
 ### Short YouTube demonstration video :D
 <p align="">
