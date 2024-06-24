@@ -1,5 +1,8 @@
 # Arduino *Simple**FOC**Shield* *v3.2*
 
+
+![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg?color=blue) ![GitHub release (latest by date)](https://img.shields.io/github/v/release/simplefoc/arduino-simplefocshield) ![GitHub Release Date](https://img.shields.io/github/release-date/simplefoc/arduino-simplefocshield?color=blue)
+
 This is an open-source low-cost Brushless DC (BLDC) motor driver board intended primarily for low-power FOC applications up to 5Amps. The board is fully compatible with the Arduino UNO and all the boards with the standard Arduino headers. The *Simple**FOC**Shield*, in combination with the *Simple**FOC**library* provides user-friendly way to control BLDC motors both in hardware and software. 
 
 <img src="images/top.png"  height="320px"><img src="images/bottom.png"  height="320px">
@@ -53,6 +56,22 @@ More info on [board fabrication docs](https://docs.simplefoc.com/arduino_simplef
 
 
 ## Board versions:
+
+Feature | <span class="simple">Simple<span class="foc">FOC</span>Shield</span> v1.x | <span class="simple">Simple<span class="foc">FOC</span>Shield</span> v2.x | <span class="simple">Simple<span class="foc">FOC</span>Shield</span> v3.x |
+-|-|-|-
+||<img src="https://simplefoc.com/assets/img/v1.jpg" class="img300 img_half">|<img src="https://simplefoc.com/assets/img/v2.jpg" class="img300  img_half">|<img src="https://simplefoc.com/assets/img/v3.jpg" class="img300  img_half">
+PWM Driver | [L6234](https://www.st.com/resource/en/datasheet/l6234.pdf) | [L6234](https://www.st.com/resource/en/datasheet/l6234.pdf) | [DRV8313](https://www.ti.com/lit/ds/symlink/drv8313.pdf?ts=1719165774986&ref_url=https%253A%252F%252Fwww.google.com%252F)
+Current Sense | ❌ | [INA240](https://www.ti.com/lit/ds/symlink/ina240.pdf?ts=1719180172738) | [ACS712](https://www.allegromicro.com/en/products/sense/current-sensor-ics/zero-to-fifty-amp-integrated-conductor-sensor-ics/acs712)
+Current measurement range | ❌ | (configurable) ±3.3/5Amps | ±5Amps
+Onboard LDO | ❌ | LM7808 | LM7808
+Stackable | ✔️ | ✔️ | ✔️
+Max current | 2Amps (5Amp peak) | 2Amps (5Amp peak) | 2Amps (3Amp peak)
+Max voltage | 24V | 35V | 35V
+Protections | Overtemperature | Overtemperature | Overtemperature, Overcurrent
+Footprint | 68mm x 53 mm | 68mm x 53 mm | 56mm x 53mm
+Designed tool | Altium Designer 2019 | Altium Designer 2019 | EasyEDA 
+
+## Release timeline
 
 To check the release timeline, click [here](https://github.com/simplefoc/Arduino-SimpleFOCShield/releases) 
 
