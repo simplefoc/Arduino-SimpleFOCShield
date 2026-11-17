@@ -3,7 +3,7 @@
 
 ![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg?color=blue) ![GitHub release (latest by date)](https://img.shields.io/github/v/release/simplefoc/arduino-simplefocshield) ![GitHub Release Date](https://img.shields.io/github/release-date/simplefoc/arduino-simplefocshield?color=blue)
 
-This is an open-source low-cost Brushless DC (BLDC) motor driver board intended primarily for mid-power FOC applications up to 10Amps. The board is fully compatible with the Arduino UNO and all the boards with the standard Arduino headers. The *Simple**FOC**Shield*, in combination with the *Simple**FOC**library* provides user-friendly way to control BLDC motors both in hardware and software. 
+This is an open-source low-cost BLDC/Stepper motor driver board intended primarily for mid-power FOC applications up to 10Amps. The board is fully compatible with the Arduino UNO and all the boards with the standard Arduino headers. The *Simple**FOC**Shield*, in combination with the *Simple**FOC**library* provides user-friendly way to control BLDC motors both in hardware and software. 
 
 <img src="images/top.png"  height="200px"><img src="images/bottom.png"  height="200px"><img src="images/side.png"  height="200px">
 ### Features
