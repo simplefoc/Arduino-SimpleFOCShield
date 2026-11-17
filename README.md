@@ -14,7 +14,7 @@ This is an open-source low-cost Brushless DC (BLDC) motor driver board intended 
 - **Integrated 8V regulator**: 
    - Enable/disable by soldering pads
 - **Absolute max ratings** - Designed for mid-power motors (preferably gimbals). 
-   - Max current: 8A (3-5A continous), 
+   - Max current: 8A/10A (3-5A continous), 
    - Max input voltage: 35V
 - **Power supply voltage sensing**: Optional volatge divisor 4.7kΩ/47kΩ (1/11)
 - **Stackable**: running 2 motors in the same time
@@ -25,7 +25,7 @@ This is an open-source low-cost Brushless DC (BLDC) motor driver board intended 
 - **SPI connector**: 6-pin JST connector for easy connection of SPI sensors (stacking not possile)
 - **Arduino headers**: Arduino UNO, Arduino MEGA, STM32 Nucleo boards...
 - **Open Source**: 
-   - Fully designed in **EasyEDA**: [EasyEDA project](https://oshwlab.com/the.skuric/simplefocshield_copy_copy) 🎉
+   - Fully designed in **EasyEDA**: [EasyEDA project](https://oshwlab.com/the.skuric/project_mzcekczw) 🎉
    - Fully available fabrication files - [how to make it yourself](https://docs.simplefoc.com/arduino_simplefoc_shield_fabrication)
 
 ### New Features v4.x
