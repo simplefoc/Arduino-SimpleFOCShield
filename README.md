@@ -36,7 +36,7 @@ This is an open-source low-cost Brushless DC (BLDC) motor driver board intended 
  - Added **SPI** and **QWIIC/STEMMA** connectors
 
 
-<img src="images/motor_uno.jpg" height="150" ><img src="images/top_real.jpg" height="150" ><img src="images/nucleo.jpg" height="150" >
+<img src="images/motor_uno.jpg" height="150" ><img src="images/top_real.jpg" height="150" ><img src="images/nucleo.jpg" height="150" ><img src="images/qwiic.jpg" height="150" >
 
 Comparison to the Drive shield
 
